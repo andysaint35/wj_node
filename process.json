@@ -1,5 +1,5 @@
 [{
-    "name": "core",
+    "name": "wj",
     "script": "./bin/www",
     "exec_mode": "cluster",
     "instances": 2,
