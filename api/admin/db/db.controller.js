@@ -23,7 +23,7 @@ const correctAnswer=[2,2,2,1,1,2,2,2,3,2,2,2,1,1,3,3,2,1,2,2,2,3,3,3,2];
 
 function buildcsv(req, res){
   //  /usr/local/mongodbbin/mongoexport -d wj -c user -f name,tel,score,q1,q2,q3,q4,q5,q6,q7,q8,q9,q10,q11,q12,q13,q14,q15,q16,q17,q18,q19,q20,q21,q22,q23,q24,q25 --csv -o /User/wangyang/work/sh/wj/wen/user.csv
-  exec('/usr/local/mongodb/bin/mongoexport -d wj -c users -f name,tel,score,q1,q2,q3,q4,q5,q6,q7,q8,q9,q10,q11,q12,q13,q14,q15,q16,q17,q18,q19,q20,q21,q22,q23,q24,q25 --type=csv -o /User/wangyang/work/sh/wj/web/user.csv', (error, stdout, stderr) =>{
+  exec('/root/mongodb-linux-x86_64-3.0.6/bin/mongoexport -d wj -c users -f name,tel,score,q1,q2,q3,q4,q5,q6,q7,q8,q9,q10,q11,q12,q13,q14,q15,q16,q17,q18,q19,q20,q21,q22,q23,q24,q25 --type=csv -o /root/wj_node/public/user.csv', (error, stdout, stderr) =>{
 ///usr/local/mongodb/bin/mongoexport -d wj -c users --csv -f name,tel,score -o /User/wangyang/work/sh/wj/web/user.csv
     if(error){
       res.json({
