@@ -1,0 +1,11 @@
+.idea
+.vscode
+node_modules
+log
+tingyun_agent.log
+tingyun.json
+deploy.sh
+api/admin/data/
+apidoc
+mock/data
+npm-debug.log

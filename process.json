@@ -1,0 +1,21 @@
+[{
+    "name": "core",
+    "script": "./bin/www",
+    "exec_mode": "cluster",
+    "instances": 2,
+    "env": {
+        "NODE_ENV": "development"
+    },
+    "env_stb": {
+        "NODE_ENV": "stb"
+    },
+    "env_sit": {
+        "NODE_ENV": "sit"
+    },
+    "env_pre": {
+        "NODE_ENV": "pre"
+    },
+    "env_production": {
+        "NODE_ENV": "production"
+    }
+}]

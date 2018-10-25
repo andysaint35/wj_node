@@ -1,0 +1,16 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "description": "schema for wechat signature api",
+  "type": "object",
+  "properties": {
+    "url": {
+      "type": "string",
+      "pattern": "^http"
+    },
+    "type": {
+      "type": "string",
+      "enum": ["andy"]
+    }
+  },
+  "required": ["type", "url"]
+}

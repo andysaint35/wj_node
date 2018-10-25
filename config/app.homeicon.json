@@ -1,0 +1,23 @@
+{
+	"succeed":true,
+	"errorCode":"0000000",
+	"errorMessage":"",
+	"data":{
+	 "version":"",
+	 "backgroundUrl":"",
+	 "list":[
+	  {
+	   "type":"",
+	   "title":"",
+	   "color":"",
+	   "colorSelected":"",
+	   "icon":"",
+	   "iconSelected":"",
+	   "gifIcon":"",
+	   "gifIconSelected":"",
+	   "animationIn":{},
+	   "animationOut":{}
+	  } 
+	 ]
+	}
+   }

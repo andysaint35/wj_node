@@ -1,0 +1,75 @@
+{
+  "nono": {
+    "default": {
+      "ios": {
+        "upgrade": 0
+      },
+      "android": {
+        "upgrade": 0
+      }
+    }
+  },
+  "mxd": {
+    "default": {
+      "ios": {
+        "upgrade": 0
+      },
+      "android": {
+        "upgrade": 0
+      }
+    }
+  },
+  "bld": {
+    "default": {
+      "ios": {
+        "upgrade": 0
+      },
+      "android": {
+        "upgrade": 0
+      }
+    }
+  },
+  "unifi": {
+    "default": {
+      "ios": {
+        "upgrade": 0
+      },
+      "android": {
+        "upgrade": 0
+      }
+    }
+  },
+  "mzjk": {
+    "default": {
+      "ios": {
+        "upgrade": 1,
+        "title": "更新说明",
+        "desc": "1. 消灭了一丢丢bug；"
+      },
+      "android": {
+        "upgrade": 0
+      }
+    },
+    "1.0.0": {
+      "android": {
+        "upgrade": 1,
+        "title": "app更新说明",
+        "desc": "1.还款功能全新上线；\n 2.优化借款申请流程。",
+        "link": "http://ovut27pvj.bkt.clouddn.com/app-release_110_jiagu_sign.apk"
+      }
+    },
+    "1.1.3": {
+      "ios": {
+        "upgrade": 0
+      }
+    },
+    "1.2.0": {
+      "ios": {
+        "upgrade": 0
+      },
+      "android": {
+        "upgrade": 0
+      }
+    }
+  }
+}
